@@ -23,17 +23,7 @@
       <el-menu-item index="3">招贤纳士</el-menu-item>
       <el-menu-item index="4">联系我们</el-menu-item>
     </el-menu>
- <!--   <div class="nav">
-      <img :src="this.$img.logoNav" alt="">
-      <span class="themeColor in_blo" style="vertical-align: middle">聚而禾科技</span>
-      <ul>
-        <li v-for="(item,index) in navSelect" :class="{navSelect:index===0}">
-          <a @click="that.$herf.router(item.path,item.hasOwnProperty('id')?{id:item.id}:'')">{{item.value}}</a>
-          <i class="in_blo lines"></i>
-        </li>
 
-      </ul>
-    </div>-->
   </div>
 
 </template>
@@ -74,10 +64,7 @@
 </script>
 
 <style scoped>
-    .nav {
-        border-bottom: solid 1px #e6e6e6;
-        box-sizing: border-box;
-    }
+
     .nav ul{
         list-style: none;
         width:1200px;
@@ -92,18 +79,6 @@
         cursor: pointer;
         box-sizing: border-box;
     }
-.nav .active{
-    border-bottom:2px solid #32cd32 !important;
-}
-    .sNav {
-        height: 101px;
-        width: 45%;
-        background: white;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin: 7.5px;
-        border-radius: 3px;
-    }
+
+
 </style>
